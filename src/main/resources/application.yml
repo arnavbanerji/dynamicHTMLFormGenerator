@@ -1,0 +1,11 @@
+spring:
+  mvc:
+    view:
+      prefix: /view/jsp/
+      suffix: .jsp
+
+logging:
+  level:
+    org:
+      springframework:  TRACE
+    com:  TRACE

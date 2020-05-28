@@ -1,0 +1,64 @@
+body {
+  height: 100%;
+  margin: 10px;
+  background-color: #99ffeb;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#div1 {
+  width: 250px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid black;
+}
+#addForm {
+  background-color: #4dff4d;
+  color: black;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+#drag1, #drag2, #drag3, #drag4, #drag5 {
+	background-color: #4dff4d;
+}
+
+input[type=text] {
+    width: 90px;
+}
+
+input[type="text"]::placeholder {
+
+    /* Firefox, Chrome, Opera */
+    text-align: center;
+    font-weight: bold;
+}
+
+input[type="text"]:-ms-input-placeholder {
+
+    /* Internet Explorer 10-11 */
+    text-align: center;
+    font-weight: bold;
+}
+
+input[type=submit], input[action=action] {
+   background-color: #4dff4d;
+   border: none;
+   color: black;
+   padding: 16px 32px;
+   text-decoration: none;
+   margin: 4px 2px;
+   cursor: pointer;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.generatedInput input[type="text"]::placeholder {
+
+    /* Firefox, Chrome, Opera */
+    text-align: left;
+}
+
+.generatedInput input[type="text"]:-ms-input-placeholder {
+
+    /* Internet Explorer 10-11 */
+    text-align: left;
+}
